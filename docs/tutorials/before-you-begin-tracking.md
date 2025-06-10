@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set up your development environment
+title: Before you begin tracking
 parent: Tutorials
 nav_order: 1
 ---
