@@ -5,13 +5,13 @@ parent: Tutorials
 nav_order: 2
 ---
 
-# Get started by listing orca sightings: a tutorial
+# Get started by tracking fitness activities: a tutorial
 
 This tutorial shows you how to download the API files and try one of the service actions: viewing all of the orca sightings reported in the app for the San Juan Islands. If you already [set up your development environment](set-up-dev-env.md), the process should take about 15 minutes.
 
 ## Step 1: Make sure you have the API files
 
-The files are located in the [orca-sightings-api repo on GitHub](https://github.com/juliebro/orca-sightings-api/tree/main/api). The directory contains the following files:
+The directory contains the following files:
 
 *  `fitness-tracking-db.json`: a JSON file containing examples of activities and how to track.
 *  `fitness-tracking.sh`: a shell script that starts JSON Server. Use this for Linux or macOS.
