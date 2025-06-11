@@ -6,6 +6,6 @@ This service allows the user to track their fitness activity that coincide with 
 
 Features of the Fitness API are:
 
-- Log activity
-- List activity
-- Update exercises, times, and dates
+- [Search an activity](..api/get-activities)
+- [Add a new activity](..api/add-a-new-activity)
+- Update an activity, time, or date
