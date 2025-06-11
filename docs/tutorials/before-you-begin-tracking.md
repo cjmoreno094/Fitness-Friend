@@ -72,30 +72,52 @@ To test your development system:.
    ```
    [
        {
-      "activityId": "abc123",
-      "type": "running",
-      "date": "2023-10-10",
-      "durationMinutes": 30,
-      "distanceKm": 5
-    },
-    {
-      "activityId": "def456",
-      "type": "cycling",
-      "date": "2023-10-09",
-      "durationMinutes": 45,
-      "distanceKm": 15
-    },
-    {
-      "activityId": "ghi789",
-      "type": "swimming",
-      "date": "2023-10-08",
-      "durationMinutes": 60,
-      "distanceKm": 2
-    },
+     "activityId": "run001",
+     "type": "running",
+     "durationMinutes": 30,
+     "distanceKm": 5,
+     "caloriesBurned": 300,
+     "startTime": "2023-10-09T07:30:00Z",
+     "endTime": "2023-10-09T08:00:00Z",
+     "notes": "Morning run in the park",
+     "userId": 1
+        },
+        {
+     "activityId": "cycle001",
+     "type": "cycling",
+     "durationMinutes": 45,
+     "distanceKm": 15,
+     "caloriesBurned": 500,
+     "startTime": "2023-10-10T07:30:00Z",
+     "endTime": "2023-10-10T08:15:00Z",
+     "notes": "Cycling around the city",
+     "userId": 2
+        },
+        {
+     "activityId": "swim001",
+     "type": "swimming",
+     "durationMinutes": 60,
+     "distanceKm": 2,
+     "caloriesBurned": 400,
+     "startTime": "2023-10-12T07:30:00Z",
+     "endTime": "2023-10-12T08:30:00Z",
+     "notes": "Swimming at the local pool",
+     "userId": 3
+        },
+        {
+      "activityId": "hike001",
+      "type": "hiking",
+      "durationMinutes": 120,
+      "distanceKm": 10,
+      "caloriesBurned": 800,
+      "startTime": "2023-10-14T07:30:00Z",
+      "endTime": "2023-10-14T09:30:00Z",
+      "notes": "Hiking in the mountains",
+      "userId": 4
        ...
    ```
 
-You should see the list of users. If you receive an error in any step of the procedure, investigate, and correct the error before continuing. Some common situations that cause errors include:
+You should see the list of activites. If you receive an error in any step of the procedure, investigate, and correct the error before continuing. Some common situations that cause errors include:
 
 1. You mistyped a command.
 2. You aren't in the correct directory.
