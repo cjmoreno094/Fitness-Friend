@@ -2,13 +2,13 @@
 layout: page
 ---
 
-# `user` resource
+# `days_of_the_week` resource
 
 Base endpoint:
 
 ```shell
 
-{server_url}/users
+{server_url}/days_of_the_week
 ```
 
 Contains information about the users of the service.
