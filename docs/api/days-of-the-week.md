@@ -11,44 +11,35 @@ Base endpoint:
 {server_url}/days_of_the_week
 ```
 
-Contains information about the users of the service.
+Contains information about the days of the week of the service.
 
-A user resource describes the type of the activity in the service.
+The days of the week resource describes the type of the activity in the service.
 Before you can create an `activity` resource in the service,
-you must create the 'user' resource to assign to the `activity`.
+you must create the 'days-of-the-week' resource to assign to the `activity`.
 
-Learn more about the [task resource](activity.md).
+Learn more about the [activities resource](activities.md).
 
 ## Resource properties
 
-Sample `logActivity` resource
+Sample `days-of-the-week` resource
 
 ```js
 
 {
-    "userId": "12345",
-    "activity": {
-      "activityId": "abc123",
-      "type": "running",
-      "durationMinutes": 30,
-      "distanceKm": 5,
-      "caloriesBurned": 300,
-      "startTime": "2023-10-10T07:30:00Z",
-      "endTime": "2023-10-10T08:00:00Z",
-      "location": {
-        "latitude": 40.712776,
-        "longitude": -74.005974
+    "Monday": [
+        {
+            "activity": "Y",
+            "userId": 1
 }
+
 ```
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `userId` | string | The user's identification number |
+| `activity` | string | Notifies the user if they're working out that day. Will include either a `Y` to indicate Yes, or `N` to indicate No |
+| `userId` | number | The task's unique record ID |
 
 ## Read operations
-
-* [Get all users](users-get-all-users.md)
-* [Get users by ID](users-get-user-by-id.md)
 
 ## Create operations
 
