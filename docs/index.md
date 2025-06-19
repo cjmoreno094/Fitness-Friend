@@ -8,6 +8,6 @@ Before we can begin, let's make sure you have access to this repo. Follow the st
 
 Features of the Fitness API are:
 
-- [Search an activity](api/get-activites.md)
+- [Search an activity](api/get-activities.md)
 - [Add a new activity](api/add-a-new-activity.md)
 - [Update an activity](api/add-a-new-activity.md), time, or date
