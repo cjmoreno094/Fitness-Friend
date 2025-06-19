@@ -5,7 +5,7 @@ add a new activity for a user of the service.
 
 ## Before you start
 
-Make sure you've completed the [Before you start a tutorial](tutorials/before-you-begin-tracking.md) topic on the development system you'll use for the tutorial.
+Make sure you've completed the [Before you begin tracking](docs/tutorials/before-you-begin-tracking.md) topic on the development system you'll use for the tutorial.
 
 ## Add a new activity
 
