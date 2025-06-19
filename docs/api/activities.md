@@ -49,9 +49,9 @@ Sample `activities` resource
 
 ## Read
 
-* [Get all activities](api/get-activities.md)
-* [Get activities assigned to the days of the week](api/days-of-the-week.md)
+* [Get all activities](get-activities.md)
+* [Get activities assigned to the days of the week](days-of-the-week.md)
 
 ## Create
 
-* [Add an activity resource](api/add-a-new-activity.md)
+* [Add an activity resource](add-a-new-activity.md)
