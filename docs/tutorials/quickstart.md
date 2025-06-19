@@ -19,7 +19,7 @@ The directory contains the following files:
 
 ## Step 2: Start JSON Server
 
-*Info to come*
+*cURL Info to come*
 
 ## Step 3: Use cURL or Postman to submit a request
 
@@ -27,4 +27,8 @@ The directory contains the following files:
 cURL data to come
 ```
 
-*Postman info here*
+*Postman info to come*
+
+```json
+Postman data to come
+```
