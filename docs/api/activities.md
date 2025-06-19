@@ -11,10 +11,10 @@ Base endpoint:
 {server_url}/activities
 ```
 
-Contains information about tasks stored for the users of the service.
+Contains information about activities assigned to the days of the week.
 
-To have a task in the service, the user must be added to
-the service first. Learn more about the [user resource](user.md).
+To have a activities in the service, the user must be added to
+the acitivity first. Learn more about (coming soon).
 
 ## Resource properties
 
@@ -49,9 +49,9 @@ Sample `activities` resource
 
 ## Read
 
-* [Get all activities](../get-activities.md)
-* [Get activities assigned to the days of the week](../days-of-the-week.md)
+* [Get all activities](./get-activities.md)
+* [Get activities assigned to the days of the week](./days-of-the-week.md)
 
 ## Create
 
-* [Add an activity resource](../add-a-new-activity.md)
+* [Add an activity resource](./add-a-new-activity.md)
