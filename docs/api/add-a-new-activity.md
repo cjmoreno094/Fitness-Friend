@@ -9,7 +9,7 @@ Make sure you've completed the [Before you begin tracking](../tutorials/before-y
 
 ## Add a new activity
 
-Adding a new activity to the service requires that you use the `POST` method to store the details of the new [`activities`](api/activities.md) resource in the service.
+Adding a new activity to the service requires that you use the `POST` method to store the details of the new [`activities`](activities.md) resource in the service.
 
 To add a new activity:
 
