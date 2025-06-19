@@ -4,7 +4,7 @@ Fitness Tracking API for Spring 2025 course
 
 This service allows the user to track their fitness activity that coincide with the days of the week.
 
-Before we can begin, let's make sure you have access to this repo. Follow the steps in the [Begin your begin tracking](../before-you-begin-tracking.md) and the [Quickstart](tutorials/quickstart.md).
+Before we can begin, let's make sure you have access to this repo. Follow the steps in the [Begin your begin tracking](tutorials/before-you-begin-tracking.md) and the [Quickstart](tutorials/quickstart.md).
 
 Features of the Fitness API are:
 
