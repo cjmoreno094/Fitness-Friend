@@ -49,13 +49,9 @@ Sample `activities` resource
 
 ## Read
 
-* [Get all tasks _(coming soon)_](#resource-properties)
-* [Get task by ID _(coming soon)_](#resource-properties)
+* [Get all activities](api/get-activities.md)
+* [Get activities assigned to the days of the week](api/days-of-the-week.md)
 
 ## Create
 
-* [Add an activity resource] (_coming soon_)
-
-## Update
-
-* [Put task by ID] (_coming soon_)
+* [Add an activity resource](api/add-a-new-activity.md)
