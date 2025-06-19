@@ -5,11 +5,11 @@ add a new activity for a user of the service.
 
 ## Before you start
 
-Make sure you've completed the [Before you start a tutorial](tutorials/before-you-start-a-tutorial.md) topic on the development system you'll use for the tutorial.
+Make sure you've completed the [Before you start a tutorial](docs/tutorials/before-you-start-a-tutorial.md) topic on the development system you'll use for the tutorial.
 
 ## Add a new activity
 
-Adding a new activity to the service requires that you use the `POST` method to store the details of the new [`activities`](api/activities.md) resource in the service.
+Adding a new activity to the service requires that you use the `POST` method to store the details of the new [`activities`](docs/api/activities.md) resource in the service.
 
 To add a new activity:
 
