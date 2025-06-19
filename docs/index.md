@@ -10,4 +10,4 @@ Features of the Fitness API are:
 
 - [Search an activity](docs/api/get-activites.md)
 - [Add a new activity](docs/api/add-a-new-activity.md)
-- [Update an activity](docs/api/add-a-new-activity.md), time, or date
+- [Update an activity](api/add-a-new-activity.md), time, or date
