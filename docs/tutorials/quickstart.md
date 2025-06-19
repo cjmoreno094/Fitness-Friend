@@ -24,7 +24,7 @@ The directory contains the following files:
 ## Step 3: Use cURL or Postman to submit a request
 
 ```json
-cURL data here
+cURL data to come
 ```
 
 *Postman info here*
