@@ -1,5 +1,6 @@
 # Fitness-Tracking-API
 remote_theme: pages-themes/hacker@v0.2.0
+
 Fitness Tracking API for Spring 2025 course
 
 This service allows the user to track their fitness activity that coincide with the days of the week.
