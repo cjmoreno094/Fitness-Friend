@@ -10,7 +10,7 @@ This service allows subscribers to keep track of the fitness activities they've 
 
 Before we can begin, let's make sure you have access to this repo.
  
-- [Before your begin tracking](tutorials/before-you-begin-tracking.md)
+- [Before you begin tracking](tutorials/before-you-begin-tracking.md)
 
 ## Quickstart
 
