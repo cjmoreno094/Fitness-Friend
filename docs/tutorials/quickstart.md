@@ -1,11 +1,4 @@
----
-layout: default
-title: Get started by tracking activities
-parent: Tutorials
-nav_order: 2
----
-
-# Get started by tracking fitness activities: a tutorial
+# Quickstart
 
 This tutorial shows you how to download the API files and try one of the service action to assist with tracking your activities throughout the week. If you already [set up your development environment](set-up-dev-env.md), the process should take about 15 minutes.
 
