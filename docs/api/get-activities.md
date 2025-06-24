@@ -12,7 +12,7 @@ Make sure you've completed read the [get started guide](before-you-get-started.m
 
 ## What endpoints are we using?
 •	**List all the activities**: `{base_url}/activities` <br>
-•	**Get a speceific activity**: `{base_url}/activities/{activity}001` (Replace {activitiy} with the activity you want.
+•	**Get a speceific activity**: `{base_url}/activities/{activity_id}` (Replace {activitiy_id} with the activity you want to retrieve.
 
 Search for an activity
 
@@ -30,25 +30,25 @@ To receive details of a specified activity:
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request with these values:
     * **METHOD**: GET
-    * **URL**: `{{base_url}}/activities/{activityId}`
+    * **URL**: `{{base_url}}/activities/{activity_id}`
 
 1. In the Postman app, choose **Send** to make the request.
-1. Watch for the response body, which should look something like this. Note that the id should be the same as you used in your **URL** as `{activityId}`.
+1. Watch for the response body, which should look something like this. Note that the id should be the same as you used in your **URL** as `{activity_id}`.
 
 ## Return body
 
 ```js
 [
   {
-     "activityId": "run001",
-     "type": "running",
-     "durationMinutes": 30,
-     "distanceKm": 5,
-     "caloriesBurned": 300,
-     "startTime": "2023-10-09T07:30:00Z",
-     "endTime": "2023-10-09T08:00:00Z",
-     "notes": "Morning run in the park",
-     "userId": 1
+    "activity_id": 1,
+    "type": "running",
+    "durationMinutes": 30,
+    "distanceKm": 5,
+    "caloriesBurned": 300,
+    "startTime": "2023-10-09T07:30:00Z",
+    "endTime": "2023-10-09T08:00:00Z",
+    "notes": "Morning run in the park",
+    "id": 1
   }
 ]
 ```
