@@ -30,7 +30,7 @@ To receive details of a specified activity:
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request with these values:
     * **METHOD**: GET
-    * **URL**: `{{base_url}}/dayss/{id}`
+    * **URL**: `{{base_url}}/days/{id}`
 
 1. In the Postman app, choose **Send** to make the request.
 1. Watch for the response body, which should look something like this. Note that the id should be the same as you used in your **URL** as `{activity_id}`.
