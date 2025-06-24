@@ -1,4 +1,4 @@
-# Get activities by the day of the week
+# Search for activities
 
 In this tutorial, you learn the operations to make a call to receive details of an existing activity.
 
@@ -6,7 +6,7 @@ In this tutorial, you learn the operations to make a call to receive details of 
 
 Make sure you've completed the [Before you start a tutorial](../before-you-start-a-tutorial.md) topic on the development system you'll use for the tutorial.
 
-## Request the activity
+## Search for an activity
 
 Adding a new activity to the service requires that you use the `GET` method to receive the details of the [`activities`](../api/activities.md) resource in the service.
 
