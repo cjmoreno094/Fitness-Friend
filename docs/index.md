@@ -16,7 +16,7 @@ Before we can begin, let's make sure you have access to this repo.
 
 Next, let's take a look at a quick overview of this repo.
   
-- [Quickstart](tutorials/quickstart.md).
+- [Quickstart](tutorials/quickstart.md)
 
 ## Features
 
