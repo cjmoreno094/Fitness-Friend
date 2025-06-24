@@ -14,9 +14,9 @@ Make sure you've completed read the [get started guide](before-you-get-started.m
 •	**List all the activities**: `{base_url}/activities` <br>
 •	**Get a speceific activity**: `{base_url}/activities/{activity_id}` (Replace {activitiy_id} with the activity you want to retrieve.
 
-Search for an activity
+## Search for an activity
 
-Adding a new activity to the service requires that you use the `GET` method to receive the details of the [`activities`](../api/activities.md) resource in the service.
+Searching for an activity in the service requires that you use the `GET` method to receive the details of the [`activities`](../api/activities.md) resource in the service.
 
 To receive details of a specified activity:
 
