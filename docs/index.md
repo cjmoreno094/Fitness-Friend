@@ -22,7 +22,7 @@ Next, let's take a look at a quick overview of this repo.
 
 Fitness Friend allows you to complete the followingt services: 
 
-- [Search for an activity](api/get-activites.md)
+- [Search for an activity](api/get-activities.md)
 - [Add a new activity](api/add-a-new-activity.md)
 - [Update an activity, time, or date](api/add-a-new-activity.md)
 - Delete an activity
