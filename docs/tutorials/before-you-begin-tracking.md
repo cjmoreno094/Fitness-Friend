@@ -38,7 +38,7 @@ Using GitHub Desktop, clone a repository to the workspace on your desktop.
 
 To test your development system:.
 
-1. Create and check out a test branch of your fork of the Fitness Tracking repository. In the below example, `<path to fitness-friend repo>` is where you cloned the **fitness-tracking-api** repository to.
+1. Create and check out a test branch of your fork of the Fitness Tracking repository. In the below example, `<path to fitness-friend repo>` is where you cloned the **fitness-friend** repository to.
 
    ```text
    cd <path to fitness-friend repo>
