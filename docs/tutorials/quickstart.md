@@ -1,6 +1,7 @@
 # Quickstart
 
-This tutorial shows you how to download the API files and try one of the service action to assist with tracking your activities throughout the week. If you've already read the [get started guide](before-you-get-started.md), the process should take about 15 minutes.
+This tutorial shows you how to download the API files and try one of the service action to assist with tracking your activities throughout the week. 
+If you've already read the [get started guide](before-you-get-started.md), the process should take about 15 minutes.
 
 ## Step 1: Check to make sure you have the API files
 
