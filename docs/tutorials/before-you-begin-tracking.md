@@ -31,7 +31,7 @@ Using GitHub Desktop, clone a repository to the workspace on your desktop.
 
 1. Go to **File** > **Clone Repository**.
 2. Select the **URL** tab.
-3. Enter the URL for the Fitness Friend: `https://github.com/cjmoreno094/fitness-friend`
+3. Enter the URL for Fitness Friend: `https://github.com/cjmoreno094/fitness-friend`
 4. Click **Clone**.
 
 ## !! **Test your development system** !!
