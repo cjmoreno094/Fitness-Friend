@@ -47,7 +47,7 @@ To test your development system:.
    cd fitness-friend
    git checkout -b tutorial-test
    cd api
-   json-server -w to-do-db-source.json
+   json-server -w fitness-tracking-db.json
    ```
 
    If you installed the software correctly, you should see the service start and display the URL of the service: `http://localhost:3000`.
