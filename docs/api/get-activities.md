@@ -1,12 +1,20 @@
-# Search for activities
+# GET activities
 
-In this tutorial, you learn the operations to make a call to receive details of an existing activity.
+In this tutorial, you learn the operations to call an endpoint to receive details of an existing activity.
 
 ## Before you start
 
-Make sure you've completed the [Before you start a tutorial](../before-you-start-a-tutorial.md) topic on the development system you'll use for the tutorial.
+Make sure you've completed read the [get started guide](before-you-get-started.md) topic on the development system you'll use for the tutorial.
 
-## Search for an activity
+## What method are we using?
+
+`GET`
+
+## What endpoints are we using?
+•	**List all the activities**: `{base_url}/activities` <br>
+•	**Get a speceific activity**: `{base_url}/activities/{activity}001` (Replace {activitiy} with the activity you want.
+
+Search for an activity
 
 Adding a new activity to the service requires that you use the `GET` method to receive the details of the [`activities`](../api/activities.md) resource in the service.
 
