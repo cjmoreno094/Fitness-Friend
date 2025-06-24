@@ -34,7 +34,7 @@ Using GitHub Desktop, clone a repository to the workspace on your desktop.
 3. Enter the URL for the Fitness Tracking API: `https://github.com/cjmoreno094/fitness-friend`
 4. Click **Clone**.
 
-## !! **Test your development system**
+## !! **Test your development system** !!
 
 To test your development system:.
 
