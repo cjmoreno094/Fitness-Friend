@@ -3,7 +3,7 @@
      {
        "day": "Monday", 
        "activity": "Y",
-       "activityId": 1,
+       "activity_id": 1,
        "id": 1
      },
      {
