@@ -2,7 +2,7 @@
 
 ## Overview
 
-You must set up your development environment in order to use the Fitness Tracking API.
+You must set up your development environment in order to use Fitness Friend.
 
 Expect this to take about 20 minutes to complete.
 
