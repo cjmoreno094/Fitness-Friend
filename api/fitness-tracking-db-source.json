@@ -6,41 +6,55 @@
                 "activity": "Y",
                 "userId": 1
             }
-        ],
+        ]
+      },
+      {
         "Tuesday": [
             {
                 "activity": "Y",
                 "userId": 2
             }
-        ],
+        ]
+      },
+      {
         "Wednesday": [
             {
                 "activity": "N"
             }
-        ],
+        ]
+      },
+      {
         "Thursday": [
             {
                 "activity": "Y",
                 "userId": 3
             }
-        ],
+        ]
+      },
+      {
         "Friday": [
             {
                 "activity": "N"
             }
-        ],
+        ]
+      },
+      {
         "Saturday": [
             {
                 "activity": "Y",
                 "userId": 4
             }
-        ],
+        ]
+      },
+      {
         "Sunday": [
             {
                 "activity": "N"
             }
         ]
-    },
+      }
+    ],
+    
     "activities": [
         {
             "activityId": "run001",
