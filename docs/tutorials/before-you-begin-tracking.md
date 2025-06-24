@@ -1,13 +1,4 @@
----
-layout: default
-title: Before you begin tracking
-parent: Tutorials
-nav_order: 1
----
-
-# Set up your development environment: a tutorial
-
-*Adapted from [To-do service API: Before you start a tutorial](https://uwc2-apidoc.github.io/to-do-service-sp25/before-you-start-a-tutorial.html)*
+# Before you begin tracking
 
 ## Overview
 
@@ -27,11 +18,11 @@ Install the following software on your desktop, which should run a recent versio
 - A recent version of **[node.js](https://nodejs.org/en)**
 - A recent version of **[json-server](https://www.npmjs.com/package/json-server)**
 - A current copy of the **database file** and the relevant **startup script**. You can get these by syncing your fork. They’re located in the `/api` directory.
-- The [**Postman desktop app**](https://www.postman.com/downloads/). You’ll run the Orca Sightings service on your development system with an `http://localhost` host name, so the web version of Postman won’t work.
+- The [**Postman desktop app**](https://www.postman.com/downloads/). You’ll run the Fitness Friend service on your development system with an `http://localhost` host name, so the web version of Postman won’t work.
 
 ## Step 3: Fork the repository
 
-1. Go to https://github.com/cjmoreno094/fitness-tracking-api.
+1. Go to https://github.com/cjmoreno094/fitness-friend.
 2. Click the **Fork** button on the right side of the page, near the top.
 
 ## Step 4: Clone the repository
@@ -40,20 +31,20 @@ Using GitHub Desktop, clone a repository to the workspace on your desktop.
 
 1. Go to **File** > **Clone Repository**.
 2. Select the **URL** tab.
-3. Enter the URL for the Fitness Tracking API: `https://github.com/cjmoreno094/fitness-tracking-api`
+3. Enter the URL for the Fitness Tracking API: `https://github.com/cjmoreno094/fitness-friend`
 4. Click **Clone**.
 
 ## !! **Test your development system**
 
 To test your development system:.
 
-1. Create and check out a test branch of your fork of the Fitness Tracking repository. In the below example, `<path to fitness-tracking-api repo>` is where you cloned the **fitness-tracking-api** repository to.
+1. Create and check out a test branch of your fork of the Fitness Tracking repository. In the below example, `<path to fitness-friend repo>` is where you cloned the **fitness-tracking-api** repository to.
 
    ```text
-   cd <path to fitness-tracking-api repo>
+   cd <path to fitness-friend repo>
    ls
-   # (see the to-do-service directory in the list)
-   cd to-do-service-sp25
+   # (see the fitnes-friend activities in the list)
+   cd fitness-friend
    git checkout -b tutorial-test
    cd api
    json-server -w to-do-db-source.json
