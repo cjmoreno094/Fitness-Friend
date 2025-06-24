@@ -1,45 +1,45 @@
 {
   "days": [
      {
-       "day": "Monday" 
+       "day": "Monday", 
        "activity": "Y",
-       "activityId": "run001"
+       "activityId": "run001",
        "id": 1
      },
      {
-       "day": "Tuesday" 
+       "day": "Tuesday", 
        "activity": "Y",
-       "activityId": "cycle001"
+       "activityId": "cycle001",
        "id": 2
      },
      {
-       "day": "Wednesday" 
+       "day": "Wednesday",
        "activity": "N",
-       "activityId": 
+       "activityId": "N/A",
        "id": 3
      },
       {
-       "day": "Thursday" 
+       "day": "Thursday",
        "activity": "Y",
-       "activityId": "swim001"
+       "activityId": "swim001",
        "id": 4
      },
      {
-       "day": "Friday" 
+       "day": "Friday",
        "activity": "N",
-       "activityId":
+       "activityId": "N/A",
        "id": 5
      },
      {
-       "day": "Saturday" 
+       "day": "Saturday",
        "activity": "Y",
-       "activityId": "hike001"
+       "activityId": "hike001",
        "id": 6
      },
      {
-       "day": "Sunday" 
+       "day": "Sunday",
        "activity": "N",
-       "activityId": 
+       "activityId": "N/A",
        "id": 7
      }
    ],
