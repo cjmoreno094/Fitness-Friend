@@ -15,8 +15,8 @@ To receive details of a specified activity:
 1. Make sure your local service is running, or start it by using this command, if it's not.
 
     ```shell
-    cd <your-github-workspace>/fitness-tracking-api/api
-    json-server -w fitness-tracking-db.json
+    cd <your-github-workspace>/fitness-friends/api
+    json-server -w fitness-tracking-db-source.json
     ```
 
 1. Open the Postman app on your desktop.
