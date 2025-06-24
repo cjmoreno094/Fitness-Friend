@@ -4,7 +4,8 @@
         "Monday": [
             {
                 "activity": "Y",
-                "userId": 1
+              "activityId": "run001"
+                "id": 1
             }
         ]
       },
@@ -12,7 +13,8 @@
         "Tuesday": [
             {
                 "activity": "Y",
-                "userId": 2
+              "activityId": "cycle001"
+                "id": 2
             }
         ]
       },
@@ -20,6 +22,7 @@
         "Wednesday": [
             {
                 "activity": "N"
+              "id": 3
             }
         ]
       },
@@ -27,7 +30,8 @@
         "Thursday": [
             {
                 "activity": "Y",
-                "userId": 3
+                "activityId": "swim001"  
+              "id": 4
             }
         ]
       },
@@ -35,6 +39,7 @@
         "Friday": [
             {
                 "activity": "N"
+              "id": 5
             }
         ]
       },
@@ -42,7 +47,8 @@
         "Saturday": [
             {
                 "activity": "Y",
-                "userId": 4
+                "activityId": "hike001"
+              "id": 6
             }
         ]
       },
@@ -50,6 +56,7 @@
         "Sunday": [
             {
                 "activity": "N"
+                "id": 7
             }
         ]
       }
