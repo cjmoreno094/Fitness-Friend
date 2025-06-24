@@ -57,50 +57,53 @@ The directory contains the following files:
 If the service is running correctly, you should see a list of users from the service, such as in this example.
 
 ```
-   [
-       {
-     "activityId": "run001",
-     "type": "running",
-     "durationMinutes": 30,
-     "distanceKm": 5,
-     "caloriesBurned": 300,
-     "startTime": "2023-10-09T07:30:00Z",
-     "endTime": "2023-10-09T08:00:00Z",
-     "notes": "Morning run in the park",
-     "userId": 1
-        },
-        {
-     "activityId": "cycle001",
-     "type": "cycling",
-     "durationMinutes": 45,
-     "distanceKm": 15,
-     "caloriesBurned": 500,
-     "startTime": "2023-10-10T07:30:00Z",
-     "endTime": "2023-10-10T08:15:00Z",
-     "notes": "Cycling around the city",
-     "userId": 2
-        },
-        {
-     "activityId": "swim001",
-     "type": "swimming",
-     "durationMinutes": 60,
-     "distanceKm": 2,
-     "caloriesBurned": 400,
-     "startTime": "2023-10-12T07:30:00Z",
-     "endTime": "2023-10-12T08:30:00Z",
-     "notes": "Swimming at the local pool",
-     "userId": 3
-        },
-        {
-      "activityId": "hike001",
-      "type": "hiking",
-      "durationMinutes": 120,
-      "distanceKm": 10,
-      "caloriesBurned": 800,
-      "startTime": "2023-10-14T07:30:00Z",
-      "endTime": "2023-10-14T09:30:00Z",
-      "notes": "Hiking in the mountains",
-      "userId": 4
+{
+ "activities": [
+     {
+       "activity_id": 1,
+       "type": "running",
+       "durationMinutes": 30,
+       "distanceKm": 5,
+       "caloriesBurned": 300,
+       "startTime": "2023-10-09T07:30:00Z",
+       "endTime": "2023-10-09T08:00:00Z",
+       "notes": "Morning run in the park",
+       "id": 1
+     },
+     {
+       "activity_id": 2,
+       "type": "cycling",
+       "durationMinutes": 45,
+       "distanceKm": 15,
+       "caloriesBurned": 500,
+       "startTime": "2023-10-10T07:30:00Z",
+       "endTime": "2023-10-10T08:15:00Z",
+       "notes": "Cycling around the city",
+       "id": 2
+     },
+     { 
+       "activity_id": 3,
+       "type": "swimming",
+       "durationMinutes": 60,
+       "distanceKm": 2,
+       "caloriesBurned": 400,
+       "startTime": "2023-10-12T07:30:00Z",
+       "endTime": "2023-10-12T08:30:00Z",
+       "notes": "Swimming at the local pool",
+       "id": 3
+     },
+     {
+       "activity_id": 4,
+       "type": "hiking",
+       "durationMinutes": 120,
+       "distanceKm": 10,
+       "caloriesBurned": 800,
+       "startTime": "2023-10-14T07:30:00Z",
+       "endTime": "2023-10-14T09:30:00Z",
+       "notes": "Hiking in the mountains",
+       "id": 4
+     }
+   ]
        ...
    ```
 In Postman, you should recieve a 200 OK message in the header above the results. 
