@@ -34,31 +34,45 @@ Using GitHub Desktop, clone a repository to the workspace on your desktop.
 3. Enter the URL for Fitness Friend: `https://github.com/cjmoreno094/fitness-friend`
 4. Click **Clone**.
 
-## !! **Test your development system** !!
+## Step 5: Test your system
 
-To test your development system:.
+Create and checkout a test branch of your fork of the fitness-friend repo. 
 
-1. Create and check out a test branch of your fork of the Fitness Tracking repository. In the below example, `<path to fitness-friend repo>` is where you cloned the **fitness-friend** repository to.
+To download each file:
+1. Move your cursor over the filename and select the link that appears.
+2. Locate the download button on the top right corner of the panel, indicated by a down arrow, and click it.
+3. Repeat this process for the `comic-book-database.json` file and one of the startup scripts: `start-server.sh` for macOS and Linux or `start-server.bat` for Windows.
 
-   ```text
-   cd <path to fitness-friend repo>
-   ls
-   # (see the fitnes-friend activities in the list)
-   cd fitness-friend
-   git checkout -b tutorial-test
-   cd api
-   json-server -w fitness-tracking-db.json
-   ```
+## Step 3: Run the JSON server
 
-   If you installed the software correctly, you should see the service start and display the URL of the service: `http://localhost:3000`.
+1. Navigate to the directory where you downloaded comic-book-database.json and the start scripts.
+2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the current directory. If that doesn’t work, type `json-server comic-book-database.json`. You should see some text to show the service is running:
 
-2. Make a test call to the service.
+    ```
+     \{^_^}/ hi!
 
-   ```
-   curl <http://localhost:3000/listActivityReferences>
-   ```
+     Loading api/fitness-tracking-db-source.json
+     Done
 
-3. If the service is running correctly, you should see a list of users from the service, such as in this example.
+     Resources
+     http://localhost:3000/days
+     http://localhost:3000/activities
+
+     Home
+     http://localhost:3000
+
+     Type s + enter at any time to create a snapshot of the database
+     Watching...
+    ```
+
+3. If your development system is installed correctly, you should see the service start and display the URL of the service: `http://localhost:3000`.
+4. Open a new terminal.
+5. Make a test call to the service on the new terminal.
+
+    ```
+    curl http://localhost:3000/activities
+    ```
+6. If the service is running correctly, you should see a list of users from the service, such as in this example.
 
    ```
    [
