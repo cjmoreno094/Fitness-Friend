@@ -33,7 +33,7 @@ Sample `activities` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `day_id` | number | The ID of the activity reference to which this activity is assigned |
+| `day_id` | number | The ID of the corresponding day of the week resource to which this activity is assigned |
 | `activity_type` | string | The type of activity |
 | `durationMinutes` | number | The time it took to complete this activity |
 | `distanceKM` | number | The distance relative to the `durationMinutes` that the activity took to complete. This should be in kilometeres (KM) |
