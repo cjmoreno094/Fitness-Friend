@@ -45,8 +45,8 @@
    ],
   "activities": [
      {
-       "activity_id": 1,
-       "type": "running",
+       "day_id": 1,
+       "activity_type": "running",
        "durationMinutes": 30,
        "distanceKm": 5,
        "caloriesBurned": 300,
@@ -56,8 +56,8 @@
        "id": 1
      },
      {
-       "activity_id": 2,
-       "type": "cycling",
+       "day_id": 2,
+       "activity_type": "cycling",
        "durationMinutes": 45,
        "distanceKm": 15,
        "caloriesBurned": 500,
@@ -67,8 +67,8 @@
        "id": 2
      },
      { 
-       "activity_id": 3,
-       "type": "swimming",
+       "day_id": 3,
+       "activity_type": "swimming",
        "durationMinutes": 60,
        "distanceKm": 2,
        "caloriesBurned": 400,
@@ -78,8 +78,8 @@
        "id": 3
      },
      {
-       "activity_id": 4,
-       "type": "hiking",
+       "day_id": 4,
+       "activity_type": "hiking",
        "durationMinutes": 120,
        "distanceKm": 10,
        "caloriesBurned": 800,
