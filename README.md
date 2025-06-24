@@ -1,6 +1,8 @@
-# Fitness-Tracking-API
+# Fitness Friend
 
-Fitness Tracking API for Spring 2025 course
+Welcome to Fitness Friend, the only friend you will ever need on your fitness journey. 
+
+***This is a sample RestAPI for Spring 2025 course***
 
 This service allows the user to track their fitness activity that coincide with the days of the week.
 
@@ -11,3 +13,4 @@ Features of the Fitness API are:
 - [Search an activity](api/get-activites.md)
 - [Add a new activity](api/add-a-new-activity.md)
 - [Update an activity](api/add-a-new-activity.md), time, or date
+
