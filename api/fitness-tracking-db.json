@@ -1,5 +1,6 @@
 {
-  "days_of_the_week": {
+  "days_of_the_week": [
+      {
         "Monday": [
             {
                 "activity": "Y",
