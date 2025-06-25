@@ -40,8 +40,8 @@ Sample `days` resource
 
 ## Create operations
 
-* [Post users](users-post-users.md)
+* [Post users](../api/days.md)
 
 ## Delete operations
 
-* [Delete user by ID](Ref_DELETE_User.md)
+* [Delete user by ID]()
