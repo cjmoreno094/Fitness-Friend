@@ -5,7 +5,7 @@ add a new activity to a day of the week in the service.
 
 ## Before you start
 
-Make sure you've completed the [Before you begin tracking](../tutorials/before-you-begin-tracking.md) topic on the development system you'll use for the tutorial.
+Make sure you've completed the [before you begin tracking](../tutorials/before-you-begin-tracking.md) topic on the development system you'll use for the tutorial.
 
 ## What methos are we using?
 
