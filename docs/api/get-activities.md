@@ -1,6 +1,7 @@
 # GET activities
 
-In this tutorial, you learn the operations to call an endpoint to receive details of an existing activity.
+In this tutorial, you learn the operations to call 
+an endpoint to `GET` details of an existing activity.
 
 ## Before you start
 
@@ -11,8 +12,9 @@ Make sure you've completed read the [get started guide](before-you-get-started.m
 `GET`
 
 ## What endpoints are we using?
-•	**List all the activities**: `{base_url}/activities` <br>
-•	**Get a speceific activity**: `{base_url}/activities/{activity_id}` (Replace {activitiy_id} with the activity you want to retrieve.
+
+-	List all the activities: `{base_url}/activities` <br>
+- Get a speceific activity: `{base_url}/activities/{activity_id}` (Replace {activitiy_id} with the activity you want to retrieve.)
 
 ## Search for an activity
 
@@ -27,17 +29,18 @@ To receive details of a specified activity:
     json-server -w fitness-tracking-db-source.json
     ```
 
-1. Open the Postman app on your desktop.
-1. In the Postman app, create a new request with these values:
+2. Open the Postman app on your desktop.
+3. In the Postman app, create a new request with these values:
     * **METHOD**: GET
     * **URL**: `{{base_url}}/activities/{activity_id}`
 
-1. In the Postman app, choose **Send** to make the request.
-1. Watch for the response body, which should look something like this. Note that the id should be the same as you used in your **URL** as `{activity_id}`.
+4. In the Postman app, choose **Send** to make the request.
+5. Watch for the response body, which should look something like this. Note that the id should be the same as you used in your **URL** as `{activity_id}`.
 
-## Return body
+### Return body
 
 ```js
+
 [
   {
     "activity_id": 1,
@@ -51,8 +54,45 @@ To receive details of a specified activity:
     "id": 1
   }
 ]
+
 ```
+
+### Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data returned successfully |
+| 404 | Error | Specified user record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+
 After doing this tutorial in Postman, you might like to repeat it in
 your favorite programming language. To do this, adapt the values from
 the tutorial to the properties and arguments that the language uses to
 make REST API calls.
+
+### Overview
+
+* [Head back to the homepage](../index.md)
+
+### Resources
+
+* [Activities resources](./activities.md)
+* [Days resources](./days.md)
+
+### Read
+
+* [Get all activities](./get-activities.md)
+* [Get activities assigned to the days of the week](./get-days.md)
+
+### Create
+
+* [Add an activity resource](./post-new-activity.md)
+
+### Edit
+
+* [Edit a day of the week](./put-days.md)
+
+### Delete
+
+* [Delete an activity](./delete-activities.md)

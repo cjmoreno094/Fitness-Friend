@@ -20,9 +20,24 @@ Next, let's take a look at a quick overview of this repo.
 
 ## Features
 
-Fitness Friend allows you to complete the followingt services: 
+### Resources
 
-- [Search for an activity](api/get-activities.md)
-- [Add a new activity](api/add-a-new-activity.md)
-- [Update an activity, time, or date](api/add-a-new-activity.md)
-- Delete an activity
+* [Activities resources](api/activities.md)
+* [Days resources](api/days.md)
+
+### Read
+
+* [Get all activities](api/get-activities.md)
+* [Get activities assigned to the days of the week](api/get-days.md)
+
+### Create
+
+* [Add an activity resource](api/post-new-activity.md)
+
+### Edit
+
+* [Edit a day of the week](api/put-days.md)
+
+### Delete
+
+* [Delete an activity](api/delete-activities.md)

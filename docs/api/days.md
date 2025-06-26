@@ -5,6 +5,7 @@ Base endpoint:
 ```shell
 
 {server_url}/days
+
 ```
 
 Contains information about the days of the week of the service.
@@ -15,17 +16,20 @@ you must edit the 'days' resource and assign and `activity` to it.
 
 Learn more about the [activities resource](activities.md).
 
-## Resource properties
+### Resource properties
 
 Sample `days` resource
 
 ```js
 
-{
+[
+    {
     "day": "Monday", 
     "activity": "Y",
     "activityId": 1,
     "id": 1
+    }
+]
 
 ```
 
@@ -36,12 +40,29 @@ Sample `days` resource
 | `activity_id"` | number | The unique record ID associated with the activity scheduled for that day|
 | `id` | number | The unique record ID associated with the day of the week, beginning numerically with `1` as Monday |
 
-## Read operations
 
-## Create operations
+### Overview
 
-* [Post users](../api/days.md)
+* [Head back to the homepage](../index.md)
 
-## Delete operations
+### Resources
 
-* [Delete user by ID]()
+* [Activities resources](./activities.md)
+* [Days resources](./days.md)
+
+### Read
+
+* [Get all activities](./get-activities.md)
+* [Get activities assigned to the days of the week](./get-days.md)
+
+### Create
+
+* [Add an activity resource](./post-new-activity.md)
+
+### Edit
+
+* [Edit a day of the week](./put-days.md)
+
+### Delete
+
+* [Delete an activity](./delete-activities.md)

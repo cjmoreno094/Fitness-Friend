@@ -5,6 +5,7 @@ Base endpoint:
 ```shell
 
 {server_url}/activities
+
 ```
 
 Contains information about activities assigned to the days of the week.
@@ -18,7 +19,8 @@ Sample `activities` resource
 
 ```js
 
-{
+[
+   {
    "day_id": 1,
    "activity_type": "running",
    "durationMinutes": 30,
@@ -28,7 +30,8 @@ Sample `activities` resource
    "endTime": "2023-10-09T08:00:00Z",
    "notes": "Morning run in the park",
    "id": 1
-}
+   }
+]
 ```
 
 | Property name | Type | Description |
@@ -43,11 +46,29 @@ Sample `activities` resource
 | `notes` | string | Any details about the activity |
 | `id` | number | The activity's unique record ID |
 
-## Read
+
+### Overview
+
+* [Head back to the homepage](../index.md)
+
+### Resources
+
+* [Activities resources](api/activities.md)
+* [Days resources](api/days.md)
+
+### Read
 
 * [Get all activities](./get-activities.md)
-* [Get activities assigned to the days of the week](./days-of-the-week.md)
+* [Get activities assigned to the days of the week](./get-days.md)
 
-## Create
+### Create
 
-* [Add an activity resource](./add-a-new-activity.md)
+* [Add an activity resource](./post-new-activity.md)
+
+### Edit
+
+* [Edit a day of the week](./put-days.md)
+
+### Delete
+
+* [Delete an activity](./delete-activities.md)
