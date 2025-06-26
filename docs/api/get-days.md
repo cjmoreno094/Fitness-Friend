@@ -41,7 +41,6 @@ To receive details of a specified activity:
 ### Return body
 
 ```js
-
 [
     {
     "day": "Monday", 
@@ -50,7 +49,6 @@ To receive details of a specified activity:
     "id": 1
     }
 ]
-
 ```
 
 ### Return status

@@ -38,7 +38,6 @@ Adding a new activity to a day of the week in service requires that you use the 
         You can change the values of each property as you'd like.
 
     ```js
-
     [
        {
          "activity_id": 1,
@@ -52,7 +51,6 @@ Adding a new activity to a day of the week in service requires that you use the 
          "id": 1
        }
     ]
-
     ```
 
 4. In the Postman app, choose **Send** to make the request.
@@ -61,7 +59,6 @@ Adding a new activity to a day of the week in service requires that you use the 
 ### Return body
 
     ```js
-
     [
         {
 
@@ -76,7 +73,6 @@ Adding a new activity to a day of the week in service requires that you use the 
          "id": 4
         }
     ]
-
     ```
 
 ### Return status

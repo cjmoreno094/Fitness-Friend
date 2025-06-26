@@ -25,9 +25,7 @@ Make sure you've completed read the [get started guide](before-you-get-started.m
 ### Return body
 
 ```js
-
 {}
-
 ```
 
 ### Return status

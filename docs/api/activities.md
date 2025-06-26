@@ -3,9 +3,7 @@
 Base endpoint:
 
 ```shell
-
 {server_url}/activities
-
 ```
 
 Contains information about activities assigned to the days of the week.
@@ -18,7 +16,6 @@ the acitivity first. Learn more about (coming soon).
 Sample `activities` resource
 
 ```js
-
 [
    {
    "day_id": 1,

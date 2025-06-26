@@ -40,7 +40,6 @@ To receive details of a specified activity:
 ### Return body
 
 ```js
-
 [
   {
     "activity_id": 1,
@@ -54,7 +53,6 @@ To receive details of a specified activity:
     "id": 1
   }
 ]
-
 ```
 
 ### Return status

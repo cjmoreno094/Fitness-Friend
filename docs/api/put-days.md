@@ -6,9 +6,7 @@ a day of the week in the service.
 ## URL
 
 ```shell
-
 {server_url}/days/{id}
-
 ```
 
 ## Parameters
@@ -29,7 +27,6 @@ a day of the week in the service.
 ## Request body
 
 ```js
-
 [
     {
     "day": "Monday", 
@@ -38,13 +35,11 @@ a day of the week in the service.
     "id": 1
     }
 ]
-
 ```
 
 ### Return body
 
 ```js
-
 [
     {
     "day": "Monday", 
@@ -53,7 +48,6 @@ a day of the week in the service.
     "id": 1
     }
 ]
-
 ```
 
 ### Return status

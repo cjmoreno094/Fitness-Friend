@@ -3,9 +3,7 @@
 Base endpoint:
 
 ```shell
-
 {server_url}/days
-
 ```
 
 Contains information about the days of the week of the service.
@@ -21,7 +19,6 @@ Learn more about the [activities resource](activities.md).
 Sample `days` resource
 
 ```js
-
 [
     {
     "day": "Monday", 
@@ -30,7 +27,6 @@ Sample `days` resource
     "id": 1
     }
 ]
-
 ```
 
 | Property name | Type | Description |
