@@ -66,9 +66,9 @@ make REST API calls.
 
 ## Next Steps
 
-### Read
+### Resources
 
-* [Get all activities](./get-activities.md)
+* [Activities resources](./activities.md)
 
 ## See Also
 
@@ -78,11 +78,11 @@ make REST API calls.
 
 ### Resources
 
-* [Activities resources](./activities.md)
 * [Days resources](./days.md)
 
 ### Read
 
+* [Get all activities](./get-activities.md)
 * [Get activities assigned to the days of the week](./get-days.md)
 
 ### Create

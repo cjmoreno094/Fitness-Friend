@@ -91,9 +91,9 @@ make REST API calls.
 
 ## Next Steps
 
-### Resources
+### Delete
 
-* [Days resources](./days.md)
+* [Delete an activity](./delete-activities.md)
 
 ## See Also
 
@@ -104,6 +104,7 @@ make REST API calls.
 ### Resources
 
 * [Activities resources](./activities.md)
+* [Days resources](./days.md)
 
 ### Read
 
@@ -118,6 +119,3 @@ make REST API calls.
 
 * [Add an activity resource](./post-new-activity.md)
 
-### Delete
-
-* [Delete an activity](./delete-activities.md)
