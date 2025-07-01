@@ -65,11 +65,13 @@ your favorite programming language. To do this, adapt the values from
 the tutorial to the properties and arguments that the language uses to
 make REST API calls.
 
+
 ## Next Step
 
 ### Edit
 
 * [Edit a day of the week](./put-days.md)
+
 
 ## See Also
 

@@ -57,6 +57,8 @@ The directory contains the following files:
 If the service is running correctly, you should see a list of users from the service, such as in this example.
 
 ```
+[
+  {
  "activities": [
      {
        "activity_id": 1,
@@ -103,9 +105,11 @@ If the service is running correctly, you should see a list of users from the ser
        "id": 4
      }
    ]
-       ...
+  }
+]
    ```
 In Postman, you should recieve a 200 OK message in the header above the results. 
+
 
 ## Next Steps
 
@@ -113,6 +117,7 @@ In Postman, you should recieve a 200 OK message in the header above the results.
 
 * [Activities resources](../api/activities.md)
 * [Days resources](../api/days.md)
+
 
 ## See Also
 

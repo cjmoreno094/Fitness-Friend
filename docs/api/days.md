@@ -36,11 +36,13 @@ Sample `days` resource
 | `activity_id"` | number | The unique record ID associated with the activity scheduled for that day|
 | `id` | number | The unique record ID associated with the day of the week, beginning numerically with `1` as Monday |
 
+
 ## Next Step
 
 ### Read
 
 * [Get activities assigned to the days of the week](./get-days.md)
+
 
 ## See Also
 

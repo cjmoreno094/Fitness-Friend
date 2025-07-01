@@ -69,11 +69,13 @@ your favorite programming language. To do this, adapt the values from
 the tutorial to the properties and arguments that the language uses to
 make REST API calls.
 
+
 ## Next Steps
 
 ### Create
 
 * [Add an activity resource](./post-new-activity.md)
+
 
 ## See Also
 

@@ -89,11 +89,13 @@ your favorite programming language. To do this, adapt the values from
 the tutorial to the properties and arguments that the language uses to
 make REST API calls.
 
+
 ## Next Steps
 
 ### Delete
 
 * [Delete an activity](./delete-activities.md)
+
 
 ## See Also
 

@@ -74,7 +74,9 @@ To download each file:
     ```
 6. If the service is running correctly, you should see a list of users from the service, such as in this example.
 
-   ```
+```
+[
+  {
       "activities": [
      {
        "activity_id": 1,
@@ -121,7 +123,9 @@ To download each file:
        "id": 4
      }
    ]
-     ```
+  }
+]
+  ```
 
 You should see the list of activites. If you receive an error in any step of the procedure, investigate, and correct the error before continuing. Some common situations that cause errors include:
 
@@ -130,5 +134,13 @@ You should see the list of activites. If you receive an error in any step of the
 3. A required software component didn't install correctly.
 4. A required software component isn't up to date.
 
+## Next Steps
+
 If you see the list of activities from the service, you're ready to move on to the [quickstart guide](quickstart.md).
 
+
+## See Also
+
+### Overview
+
+* [Head back to the homepage](../index.md)

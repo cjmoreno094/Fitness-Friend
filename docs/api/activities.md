@@ -43,11 +43,13 @@ Sample `activities` resource
 | `notes` | string | Any details about the activity |
 | `id` | number | The activity's unique record ID |
 
+
 ## Next Steps
 
 ### Read
 
 * [Get all activities](./get-activities.md)
+
 
 ## See Also
 
