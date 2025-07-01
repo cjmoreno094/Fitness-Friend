@@ -64,6 +64,13 @@ your favorite programming language. To do this, adapt the values from
 the tutorial to the properties and arguments that the language uses to
 make REST API calls.
 
+## Next Steps
+
+### Read
+
+* [Get all activities](./get-activities.md)
+
+## See Also
 
 ### Overview
 
@@ -76,7 +83,6 @@ make REST API calls.
 
 ### Read
 
-* [Get all activities](./get-activities.md)
 * [Get activities assigned to the days of the week](./get-days.md)
 
 ### Create

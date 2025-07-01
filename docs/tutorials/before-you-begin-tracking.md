@@ -41,12 +41,12 @@ Create and checkout a test branch of your fork of the fitness-friend repo.
 To download each file:
 1. Move your cursor over the filename and select the link that appears.
 2. Locate the download button on the top right corner of the panel, indicated by a down arrow, and click it.
-3. Repeat this process for the `comic-book-database.json` file and one of the startup scripts: `start-server.sh` for macOS and Linux or `start-server.bat` for Windows.
+3. Repeat this process for the `fitness-tracking-db-source.json` file and one of the startup scripts: `start-server.sh` for macOS and Linux or `start-server.bat` for Windows.
 
 ## Step 3: Run the JSON server
 
-1. Navigate to the directory where you downloaded comic-book-database.json and the start scripts.
-2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the current directory. If that doesn’t work, type `json-server comic-book-database.json`. You should see some text to show the service is running:
+1. Navigate to the directory where you downloaded fitness-tracking-db-source.json and the start scripts.
+2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the current directory. If that doesn’t work, type `json-server -w fitness-tracking-db-source.json`. You should see some text to show the service is running:
 
     ```
      \{^_^}/ hi!
@@ -75,7 +75,6 @@ To download each file:
 6. If the service is running correctly, you should see a list of users from the service, such as in this example.
 
    ```
-   {
       "activities": [
      {
        "activity_id": 1,
@@ -131,4 +130,5 @@ You should see the list of activites. If you receive an error in any step of the
 3. A required software component didn't install correctly.
 4. A required software component isn't up to date.
 
-If you see the list of activities from the service, you're ready to do the [Tutorials](INPUT HYPERLINK).
+If you see the list of activities from the service, you're ready to move on to the [quickstart guide](quickstart.md).
+

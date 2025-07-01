@@ -43,6 +43,13 @@ Sample `activities` resource
 | `notes` | string | Any details about the activity |
 | `id` | number | The activity's unique record ID |
 
+## Next Steps
+
+### Read
+
+* [Get all activities](./get-activities.md)
+
+## See Also
 
 ### Overview
 
@@ -55,7 +62,6 @@ Sample `activities` resource
 
 ### Read
 
-* [Get all activities](./get-activities.md)
 * [Get activities assigned to the days of the week](./get-days.md)
 
 ### Create

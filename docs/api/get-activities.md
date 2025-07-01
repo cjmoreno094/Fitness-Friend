@@ -69,6 +69,14 @@ your favorite programming language. To do this, adapt the values from
 the tutorial to the properties and arguments that the language uses to
 make REST API calls.
 
+## Next Steps
+
+### Create
+
+* [Add an activity resource](./post-new-activity.md)
+
+## See Also
+
 ### Overview
 
 * [Head back to the homepage](../index.md)
@@ -82,10 +90,6 @@ make REST API calls.
 
 * [Get all activities](./get-activities.md)
 * [Get activities assigned to the days of the week](./get-days.md)
-
-### Create
-
-* [Add an activity resource](./post-new-activity.md)
 
 ### Edit
 

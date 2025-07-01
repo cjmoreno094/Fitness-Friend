@@ -15,7 +15,7 @@ The directory contains the following files:
 
 1. Open a terminal window and `cd` to the location of the json-server app.
 2. Make sure the API files are in the same directory.
-3. Start the service by typing `json-server -w api/comic-book-database.json` into the terminal. You should see some text to show the service is running:
+3. Start the service by typing `json-server -w api/fitness-database-db-source.json` into the terminal. You should see some text to show the service is running:
 
 ```
      \{^_^}/ hi!
@@ -57,7 +57,6 @@ The directory contains the following files:
 If the service is running correctly, you should see a list of users from the service, such as in this example.
 
 ```
-{
  "activities": [
      {
        "activity_id": 1,
@@ -108,4 +107,32 @@ If the service is running correctly, you should see a list of users from the ser
    ```
 In Postman, you should recieve a 200 OK message in the header above the results. 
 
-Once this is complete, you're ready to start using Fitness Friend! You can [add a new activity](api/add-a-new-activity.md), [update an activity, time, or date](api/add-a-new-activity.md), or delete an activity.
+## Next Steps
+
+### Resources
+
+* [Activities resources](../api/activities.md)
+* [Days resources](../api/days.md)
+
+## See Also
+
+### Overview
+
+* [Head back to the homepage](../index.md)
+
+### Read
+
+* [Get all activities](../api/get-activities.md)
+* [Get activities assigned to the days of the week](../api/get-days.md)
+
+### Create
+
+* [Add an activity resource](../api/post-new-activity.md)
+
+### Edit
+
+* [Edit a day of the week](../api/put-days.md)
+
+### Delete
+
+* [Delete an activity](../api/delete-activities.md)
