@@ -36,6 +36,20 @@ Sample `days` resource
 | `activity_id"` | number | The unique record ID associated with the activity scheduled for that day|
 | `id` | number | The unique record ID associated with the day of the week, beginning numerically with `1` as Monday |
 
+### Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data returned successfully |
+| 404 | Error | Specified user record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+
+After doing this tutorial in Postman, you might like to repeat it in
+your favorite programming language. To do this, adapt the values from
+the tutorial to the properties and arguments that the language uses to
+make REST API calls.
+
 
 ## Next Step
 
