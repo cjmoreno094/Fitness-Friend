@@ -6,6 +6,8 @@ You must set up your development environment in order to use Fitness Friend.
 
 Expect this to take about 20 minutes to complete.
 
+![Screenshot 2025-07-02 at 9 00 45 PM](https://github.com/user-attachments/assets/7d96d5be-667e-4484-a1f8-408236def49c)
+
 ## Step 1: Create a GitHub user account
 
 You’ll need a GitHub account. If you don’t already have one, create one at [GitHub](https://github.com/).
