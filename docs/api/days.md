@@ -14,6 +14,8 @@ you must edit the 'days' resource and assign and `activity` to it.
 
 Learn more about the [activities resource](activities.md).
 
+![Screenshot 2025-07-02 at 8 58 39 PM](https://github.com/user-attachments/assets/ab789b28-64dd-41f8-adad-bf1035a5eaed)
+
 ### Resource properties
 
 Sample `days` resource
