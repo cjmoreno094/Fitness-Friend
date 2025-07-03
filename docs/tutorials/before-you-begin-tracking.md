@@ -46,7 +46,7 @@ To download each file:
 ## Step 3: Run the JSON server
 
 1. Navigate to the directory where you downloaded fitness-tracking-db-source.json and the start scripts.
-2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the current directory. If that doesn’t work, type `json-server -w fitness-tracking-db-source.json`. You should see some text to show the service is running:
+2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open the terminal, `cd` <directory name> where you downloaded the files, and type `./start-server.sh`. That runs the script in the current directory. If that doesn’t work, type `json-server -w api/fitness-tracking-db-source.json`. You should see some text to show the service is running:
 
     ```
      \{^_^}/ hi!
