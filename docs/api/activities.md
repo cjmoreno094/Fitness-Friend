@@ -11,6 +11,8 @@ Contains information about activities assigned to the days of the week.
 To have a activities in the service, the user must be added to
 the acitivity first. Learn more about (coming soon).
 
+![Screenshot 2025-07-02 at 8 56 49 PM](https://github.com/user-attachments/assets/c0d4ea37-5cb3-4f99-aa03-6c2b70267bdf)
+
 ## Resource properties
 
 Sample `activities` resource
