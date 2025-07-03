@@ -5,7 +5,6 @@ If you've already read the [get started guide](before-you-get-started.md), the p
 
 ![Screenshot 2025-07-02 at 8 52 02 PM](https://github.com/user-attachments/assets/6d34dff6-4d49-48d0-8dd4-dcd738b3fa38)
 
-
 ## Step 1: Check to make sure you have the API files
 
 The directory contains the following files:
