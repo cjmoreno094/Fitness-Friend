@@ -2,7 +2,9 @@
 
 Welcome to Fitness Friend, the only friend you will ever need on your fitness journey. 
 
-***This is a sample RestAPI for Spring 2025 course***
+***This is a sample RestAPI for Spring 2025 API course***
+
+![Screenshot 2025-07-02 at 8 21 54 PM](https://github.com/user-attachments/assets/7c623158-cc12-4202-910d-6201d2dcbb24)
 
 This service allows subscribers to keep track of the fitness activities they've completed throughout the week in great detail.
 
