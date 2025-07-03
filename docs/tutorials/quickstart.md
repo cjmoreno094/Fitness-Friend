@@ -3,7 +3,8 @@
 This tutorial shows you how to download the API files and try one of the service action to assist with tracking your activities throughout the week. 
 If you've already read the [get started guide](before-you-get-started.md), the process should take about 15 minutes.
 
-![alt text](image.png)
+![Screenshot 2025-07-02 at 8 52 02 PM](https://github.com/user-attachments/assets/6d34dff6-4d49-48d0-8dd4-dcd738b3fa38)
+
 
 ## Step 1: Check to make sure you have the API files
 
